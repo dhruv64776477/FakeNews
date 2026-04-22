@@ -1,0 +1,54 @@
+{
+  "name": ".",
+  "version": "1.0.0",
+  "description": "A project inspired by YouTube",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "express"
+  ],
+  "author": "Dhruv Singh Kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/paypal-server-sdk": "latest",
+    "@sendgrid/mail": "latest",
+    "axios": "^1.15.0",
+    "bcryptjs": "latest",
+    "cheerio": "^1.2.0",
+    "cloudinary": "latest",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-async-errors": "latest",
+    "express-fileupload": "latest",
+    "express-mongo-sanitize": "latest",
+    "express-rate-limit": "latest",
+    "express-session": "^1.18.1",
+    "express-validator": "latest",
+    "helmet": "latest",
+    "hpp": "^0.2.3",
+    "http-status-codes": "latest",
+    "joi": "latest",
+    "jsonwebtoken": "latest",
+    "moment": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "nodemailer": "latest",
+    "passport": "latest",
+    "passport-google-oauth20": "latest",
+    "passport-local": "^1.0.0",
+    "validator": "latest",
+    "winston": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "prettier": "latest"
+  }
+}
