@@ -23,7 +23,13 @@ globalMiddleware(app);
 // ── Routes ────────────────────────────────────────────────────────────────
 app.use("/api/detect", detectRouter);
 
-
+app.get("/", (req, res) => {
+  res.status(200).json({
+    status: "OK",
+    uptime: process.uptime(),
+    timestamp: Date.now(),
+  });
+});
 
 
 
